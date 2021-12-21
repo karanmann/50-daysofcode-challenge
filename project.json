@@ -2,24 +2,23 @@
   "projects": [
     {
       "number": 1,
-      "title": "FOODEX",
-      "description": "A food site to focus on HTML, SASS-CSS, JS and Animations",
-      "preview_image": "./projects/FOODEX.png",
-      "live_url": "https://project-foodex.netlify.app/",
+      "title": "Expanding Cards",
+      "description": "Cards open by expanding on click",
+      "preview_image": "./data/project-image/Project01.png",
+      "live_url": "./projects/completed/project-01/index.html",
       "techs": [
         "HTML",
         "CSS",
-        "SASS",
         "JavaScript",
-        "CSS-Animation",
-        "API"
-      ]
+        "CSS-Animation"
+      ],
+      "completed_on":"21/12/2021"
     },
     {
       "number": 2,
       "title": "FOODEX",
       "description": "A food site to focus on HTML, SASS-CSS, JS and Animations",
-      "preview_image": "./projects/FOODEX.png",
+      "preview_image": "./data/project-image/icon.png",
       "live_url": "https://project-foodex.netlify.app/",
       "techs": [
         "HTML",
@@ -28,7 +27,8 @@
         "JavaScript",
         "CSS-Animation",
         "API"
-      ]
+      ],
+      "completed_on":"22/12/2021"
     }
   ]
 } 

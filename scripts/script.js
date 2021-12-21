@@ -1,8 +1,8 @@
-const card = document.querySelector(".card");
+const cardContainer = document.querySelector(".card-container");
 
 const fetchProjectData = async() => {
 
-  await fetch ("../data/project.json")
+  await fetch ("../project.json")
     .then (response => response.json())
     .then (cardData => displayCard(cardData.projects))
 }
@@ -13,13 +13,23 @@ const displayCard = (cardData) => {
   let output = "";
 
   cardData.map(data => {
+    console.log(data)
+    const {preview_image, number, title, description, techs, live_url, completed_on } = data
+    const techData = techs.map(t => `<p>${t}</p>`).join(" ")
     output += `
-    <div>
-      <h1>${data.number}</h1>
+    <div class="card">
+      <img class="card-image" src="${preview_image}" alt="" />
+      <div class="card-description">
+        <p><b>Day ${number}. ${title}</b></p>
+        <p>${description}</p>
+        <p><a href=${live_url} target="default">PREVIEW</a></p>
+        <div class="card-tech">${techData}</div>
+        <p><i>Completed On: ${completed_on}</i></p>
+      </div>
     </div>
   `
   })
 
-  card.innerHTML = output
+  cardContainer.innerHTML = output
 
 }
