@@ -1,0 +1,34 @@
+{
+  "projects": [
+    {
+      "number": 1,
+      "title": "FOODEX",
+      "description": "A food site to focus on HTML, SASS-CSS, JS and Animations",
+      "preview_image": "./projects/FOODEX.png",
+      "live_url": "https://project-foodex.netlify.app/",
+      "techs": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "CSS-Animation",
+        "API"
+      ]
+    },
+    {
+      "number": 2,
+      "title": "FOODEX",
+      "description": "A food site to focus on HTML, SASS-CSS, JS and Animations",
+      "preview_image": "./projects/FOODEX.png",
+      "live_url": "https://project-foodex.netlify.app/",
+      "techs": [
+        "HTML",
+        "CSS",
+        "SASS",
+        "JavaScript",
+        "CSS-Animation",
+        "API"
+      ]
+    }
+  ]
+} 
