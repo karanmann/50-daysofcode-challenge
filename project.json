@@ -26,6 +26,19 @@
         "JavaScript"
       ],
       "completed_on":"22/12/2021"
+    },
+    {
+      "number": 3,
+      "title": "Color Picker",
+      "description": "A Random Color picker which dissplays the rgb code too.",
+      "preview_image": "./data/project-image/Project03.png",
+      "live_url": "./projects/completed/project-03/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"23/12/2021"
     }
   ]
 } 
