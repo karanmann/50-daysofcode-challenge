@@ -39,6 +39,33 @@
         "JavaScript"
       ],
       "completed_on":"23/12/2021"
+    },
+    {
+      "number": 4,
+      "title": "Piano Player",
+      "description": "A Piano Player inspired by Codecademys DOM Project. I added my own sounds to it.",
+      "preview_image": "./data/project-image/Project04.png",
+      "live_url": "./projects/completed/project-04/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"24/12/2021"
+    },
+    {
+      "number": 5,
+      "title": "Merry Christmas",
+      "description": "Merry Christmas greetings using Particle.JS",
+      "preview_image": "./data/project-image/Project05.png",
+      "live_url": "./projects/completed/project-05/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Particle.JS"
+      ],
+      "completed_on":"24/12/2021 for 25/12/2021"
     }
   ]
 } 
