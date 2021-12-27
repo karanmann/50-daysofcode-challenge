@@ -12,12 +12,13 @@ body {
 body header .hero {
   background-color: #2b4162;
   background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
-  color: whitesmoke;
-  height: 15rem;
+  min-height: 15rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  background-image: url("../assets/pexels-scott-webb-2117937.jpg");
+  background-size: cover;
 }
 body header .hero .container {
   display: flex;
@@ -39,10 +40,16 @@ body main .card-container .card {
   width: 17rem;
   height: 30rem;
   margin: 2rem;
+  overflow: hidden;
 }
 body main .card-container .card .card-image {
   width: 17rem;
   height: 12rem;
+}
+body main .card-container .card .card-image:hover {
+  transform: scale(1.1);
+  transition: 0.5s ease-out;
+  overflow: hidden;
 }
 body main .card-container .card .card-description {
   padding: 1rem;

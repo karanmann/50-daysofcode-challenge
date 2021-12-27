@@ -65,7 +65,35 @@
         "JavaScript",
         "Particle.JS"
       ],
-      "completed_on":"24/12/2021 for 25/12/2021"
+      "completed_on":"25/12/2021"
+    },
+    {
+      "number": 6,
+      "title": "Dad Jokes Generator",
+      "description": "Random Dad Jokes Generator using https://icanhazdadjoke.com/",
+      "preview_image": "./data/project-image/Project06.png",
+      "live_url": "./projects/completed/project-06/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "API",
+        "Async / Await"
+      ],
+      "completed_on":"26/12/2021"
+    },
+    {
+      "number": 7,
+      "title": "Progress Steps",
+      "description": "Progress steps increase and decrease on press of next and back button",
+      "preview_image": "./data/project-image/Project07.png",
+      "live_url": "./projects/completed/project-07/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"27/12/2021"
     }
   ]
 } 
