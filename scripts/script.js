@@ -22,7 +22,7 @@ const displayCard = (cardData) => {
       <div class="card-description">
         <p><b>Day ${number}. ${title}</b></p>
         <p>${description}</p>
-        <p><a href=${live_url} target="default">PREVIEW</a></p>
+        <p class="preview"><a href=${live_url} target="default">PREVIEW</a></p>
         <div class="card-tech">${techData}</div>
         <p><i>Completed On: ${completed_on}</i></p>
       </div>

@@ -1,32 +1,55 @@
-@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,700;0,900;1,200;1,300;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap");
+@font-face {
+  font-family: "neontubes";
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot");
+  src: url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.eot?#iefix") format("embedded-opentype"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff2") format("woff2"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.woff") format("woff"), url("https://bitbucket.org/kennethjensen/webfonts/raw/fc13c1cb430a0e9462da56fe3f421ff7af72db71/neontubes/neontubes-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Oswald", sans-serif;
 }
 
 body {
-  background-color: #e0e5ec;
+  background: #444444;
+}
+body header {
+  position: relative;
+  height: auto;
 }
 body header .hero {
-  background-color: #2b4162;
-  background-image: linear-gradient(315deg, #2b4162 0%, #12100e 74%);
-  min-height: 15rem;
+  min-height: 20rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
-  background-image: url("../assets/pexels-scott-webb-2117937.jpg");
-  background-size: cover;
 }
 body header .hero .container {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+body header .hero .container p {
+  color: #ffd9e2;
+  text-shadow: 0 0 0 transparent, 0 0 10px #4666FF, 0 0 20px rgba(35, 51, 127, 0.7), 0 0 40px #4666FF, 0 0 100px #4666FF, 0 0 200px #4666FF, 0 0 300px #4666FF, 0 0 500px #4666FF, 0 0 1000px #4666FF;
+  -webkit-animation: blink 4s infinite alternate;
+  animation: blink 4s infinite alternate;
+  font-family: "neontubes";
+}
+body header .hero .container p:nth-child(1) {
+  font-size: 3rem;
+}
+body header .hero .container p:nth-child(2) {
+  font-size: 5rem;
+}
+body header .hero .container p:nth-child(3) {
+  font-size: rem;
+}
 body main {
   padding: 0 2rem;
+  color: #212121;
 }
 body main .card-container {
   display: flex;
@@ -36,11 +59,17 @@ body main .card-container {
   justify-content: center;
 }
 body main .card-container .card {
-  box-shadow: 5px 5px 10px rgba(163, 177, 198, 0.6), -5px -5px 10px rgba(255, 255, 255, 0.5);
+  background: linear-gradient(145deg, #494949, #3d3d3d);
+  box-shadow: 26px 26px 52px #1b1b1b, -26px -26px 52px #6d6d6d;
   width: 17rem;
   height: 30rem;
   margin: 2rem;
   overflow: hidden;
+  color: #feeeee;
+  letter-spacing: 1px;
+}
+body main .card-container .card:hover {
+  box-shadow: -2px 0px 11px 6px rgba(70, 102, 255, 0.92);
 }
 body main .card-container .card .card-image {
   width: 17rem;
@@ -63,8 +92,46 @@ body main .card-container .card .card-description .card-tech {
   flex-wrap: wrap;
 }
 body main .card-container .card .card-description .card-tech p {
+  color: black;
+  letter-spacing: 0.1rem;
   font-size: 10px;
   margin: 0.3rem;
   padding: 0.3rem;
-  background-color: #a2d2fc;
+  background-color: #d1cfcf;
+}
+
+@-webkit-keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
+}
+
+@keyframes blink {
+  40% {
+    opacity: 1;
+  }
+  42% {
+    opacity: 0.8;
+  }
+  43% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 0.2;
+  }
+  46% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=styles.css.map */

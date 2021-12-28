@@ -94,6 +94,34 @@
         "JavaScript"
       ],
       "completed_on":"27/12/2021"
+    },
+    {
+      "number": 8,
+      "title": "CSS-in-JS",
+      "description": "Styled Cards in React using the Codeacademy CSS-in-JS Course",
+      "preview_image": "./data/project-image/Project08.png",
+      "live_url": "https://elated-bhaskara-213db3.netlify.app/",
+      "techs": [
+        "React",
+        "JavaScript",
+        "@emotion/styled",
+        "@emotion/react",
+        "CSS Animations"
+      ],
+      "completed_on":"28/12/2021"
+    },
+    {
+      "number": 9,
+      "title": "Moving Background",
+      "description": "Multiple Background Image Parallax",
+      "preview_image": "./data/project-image/Project09.png",
+      "live_url": "./projects/completed/project-09/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "CSS Animations"
+      ],
+      "completed_on":"29/12/2021"
     }
   ]
 } 
