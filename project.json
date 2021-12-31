@@ -122,6 +122,59 @@
         "CSS Animations"
       ],
       "completed_on":"29/12/2021"
+    },
+    {
+      "number": 10,
+      "title": "Rotating Navigation",
+      "description": "Page moves on an angle to the side on click of Navigation button",
+      "preview_image": "./data/project-image/Project10.png",
+      "live_url": "./projects/completed/project-10/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "CSS Animations"        
+      ],
+      "completed_on":"30/12/2021"
+    },
+    {
+      "number": 11,
+      "title": "Todo List",
+      "description": "A simple Todo list using Vanilla JavaScript.",
+      "preview_image": "./data/project-image/Project11.png",
+      "live_url": "./projects/completed/project-11/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"31/12/2021"
+    },
+    {
+      "number": 12,
+      "title": "Profile Card",
+      "description": "A Cool Profile Card",
+      "preview_image": "./data/project-image/Project12.png",
+      "live_url": "./projects/completed/project-12/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"01/01/2022"
+    },
+    {
+      "number": 13,
+      "title": "Skill Bar",
+      "description": "Skill Bars using HTML, CSS and JQuery",
+      "preview_image": "./data/project-image/Project13.png",
+      "live_url": "./projects/completed/project-13/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JQuery"
+      ],
+      "completed_on":"02/01/2022"
     }
   ]
 } 
