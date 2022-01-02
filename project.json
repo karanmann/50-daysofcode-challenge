@@ -175,6 +175,45 @@
         "JQuery"
       ],
       "completed_on":"02/01/2022"
+    },
+    {
+      "number": 14,
+      "title": "Drag & Drop",
+      "description": "Drag and drop to Upload",
+      "preview_image": "./data/project-image/Project14.png",
+      "live_url": "./projects/completed/project-14/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"03/01/2022"
+    },
+    {
+      "number": 15,
+      "title": "Drag Box",
+      "description": "Drag to move the div around the screen",
+      "preview_image": "./data/project-image/Project15.png",
+      "live_url": "./projects/completed/project-15/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"04/01/2022"
+    },
+    {
+      "number": 16,
+      "title": "Box Scroll",
+      "description": "Box Scrolling of images in both directions",
+      "preview_image": "./data/project-image/Project16.png",
+      "live_url": "./projects/completed/project-16/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"05/01/2022"
     }
   ]
 } 
