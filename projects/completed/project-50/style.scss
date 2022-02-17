@@ -1,0 +1,204 @@
+//color vars
+$background-color: #b1bfd8;
+$color-light: #fff;
+$color-pink: #C946D8;
+$color-dark: #333642;
+$background-linear: linear-gradient(315deg, #b1bfd8 0%, #6782b4 74%);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color-dark;
+    color: $color-pink;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 1em;
+    background-color: $background-color;
+    background-image: $background-linear;
+    height: 100vh;
+}
+
+.calc-wrapper {
+    max-width: 500px;
+    min-height: calc(100vh - 6em);
+    margin: 0 auto;
+    background-color: $color-light;
+}
+
+//global form styles
+label {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 300;
+    text-align: center;
+}
+
+input {
+    display: block;
+    width: 100%;
+    margin-top: .25em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+}
+
+//specific form styles
+.input-text {
+    padding: 2em;
+    .kronor-sign-wrapper {
+        //can't use ::before on an input so you need a wrapper for the currency label
+        position: relative;
+        &::before {
+            content: 'Kr.';
+            display: inline-block;
+            position: absolute;
+            top: 0;
+            left: .25em;
+            font-size: 1.75em;
+            z-index: 1;
+        }
+    }
+    input {
+        position: relative;
+        margin-bottom: .5em;
+        border: 2px solid $color-pink;
+        padding: .1em .1em .1em 1em;
+        color: $color-pink;
+        text-align: right;
+        &::before {
+            content: '$';
+        }
+        &:focus {
+            outline: none;
+            border-color: lighten($color-pink, 30%);
+        }
+        &::placeholder {
+            color: lighten($color-dark, 50%);
+        }
+        &:-ms-input-placeholder {
+            color: lighten($color-dark, 50%);
+        }
+        &::-ms-input-placeholder {
+            color: lighten($color-dark, 50%);
+        }
+    }
+} //end form-component
+.range-wrap {
+    position: relative;
+    margin-bottom: 2em;
+    padding: 2em 1em 3em 1em;
+    background-color: $color-pink;
+    label {
+        margin-bottom: .25em;
+    }
+} //end slider-wrapper
+//range slider styles
+//https://css-tricks.com/styling-cross-browser-compatible-range-inputs-css/
+input[type=range] {
+    //reset all the things
+    -webkit-appearance: none;
+    width: 100%;
+    background: transparent;
+    &:focus {
+        outline: none;
+    }
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+    }
+    &::-ms-track {
+        width: 100%;
+        cursor: pointer;
+        background: transparent;
+        border-color: transparent;
+        color: transparent;
+    }
+    //slider thumb styles
+    &::-webkit-slider-thumb {
+        -webkit-appearance: none;
+        height: 1.5em;
+        width: 1.5em;
+        margin-top: -.65em;
+        border: 5px solid lighten($color-pink, 30%);
+        border-radius: 100%;
+        background: $color-light;
+        cursor: pointer;
+    }
+    &::-moz-range-thumb {
+        height: 1em;
+        width: 1em;
+        border-radius: 100%;
+        background: $color-light;
+        cursor: pointer;
+        margin-top: 0;
+    }
+     ::-ms-thumb {
+        height: 1em;
+        width: 1em;
+        border-radius: 100%;
+        background: $color-light;
+        cursor: pointer;
+        margin-top: 0;
+    }
+    //slider track styles
+    &::-webkit-slider-runnable-track {
+        width: 100%;
+        height: .25em;
+        cursor: pointer;
+        background: $color-light;
+        border-radius: 1em;
+    }
+    &::-moz-range-track {
+        width: 100%;
+        height: .25em;
+        cursor: pointer;
+        background: $color-light;
+        border-radius: 1em;
+    }
+    &::-ms-track {
+        width: 100%;
+        height: .25em;
+        cursor: pointer;
+        background: $color-light;
+        color: transparent;
+        border-radius: 1em;
+    }
+} //end input[type=range]
+.bubble {
+    position: absolute;
+    bottom: -2.5em;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 1em;
+    color: $color-pink;
+    font-size: 1.5em;
+    font-weight: 300;
+    &::after {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 25px;
+        background: lighten($color-pink, 30%);
+        top: -1px;
+        left: 50%;
+    }
+}
+
+//result styles
+.output-wrapper {
+    padding: .5em;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3em;
+    font-weight: 300;
+    text-align: right;
+    .kronor-sign {
+        font-size: .75em;
+        vertical-align: top;
+    }
+    .amount {
+        font-weight: 400;
+    }
+}

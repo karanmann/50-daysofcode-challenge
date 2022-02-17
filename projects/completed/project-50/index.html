@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 50/50 - JS Tip Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css" />
+</head>
+
+<body>
+    <div class="calc-wrapper">
+        <form>
+            <div class="input-text">
+                <label for="subtotal">Total Bill
+            <div class="kronor-sign-wrapper">
+              <input type="number" id="subtotal" name="subtotal" placeholder="0.00" oninput="getTotals()">
+            </div>
+          </label>
+            </div>
+
+            <label for="tipPercent">Tip amount</label>
+            <div class="range-wrap">
+                <input type="range" min="0" max="100" value="20" class="slider range" id="tip-percent" name="tipPercent" oninput="getTotals()">
+                <output class="bubble"></output>
+            </div>
+        </form>
+
+        <div class="output-wrapper">
+            <p class="tip">Tip <span class="kronor-sign">Kr</span><span id="tip-amount" class="amount">0.00</span></p>
+            <p class="total">Total <span class="kronor-sign">Kr</span><span id="total-amount" class="amount">0.00</span></p>
+        </div>
+        <!--end output-wrapper-->
+    </div>
+    <!--end calc-wrapper-->
+    <script src="./script.js"></script>
+</body>
+
+</html>

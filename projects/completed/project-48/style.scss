@@ -1,0 +1,91 @@
+body {
+  .jumbotron {
+    margin-bottom: 0;
+    &.hero {
+      min-height: 75vh;
+    }
+  }
+  .jumbotron:nth-child(odd) {
+    background-color: lightgray;
+  }
+  .hero-text {
+    width: 50%;
+    h1 {
+      font-weight: bold;
+    }
+  }
+  .container-padded {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  .scroll-trigger_move-up-fade-in {
+    .container:first-of-type {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    &.animation_move-up-fade-in {
+      .container:first-of-type {
+        opacity: 1;
+        transform: translateY(0);
+        transition: all 0.5s ease-out;
+      }
+    }
+  }
+
+  .scroll-trigger_move-in-right-fade-in {
+    opacity: 0;
+    transform: translateX(50px);
+    transition: all 0.5s ease-out;
+    transition-delay: inherit;
+    &.animation_move-in-fade-in {
+      opacity: 1;
+      transform: translateX(0);
+      transition: all 0.5s ease-out;
+    }
+  }
+
+  .scroll-trigger_move-in-left-fade-in {
+    opacity: 0;
+    transform: translateX(-50px);
+    &.animation_move-in-fade-in {
+      opacity: 1;
+      transform: translateX(0);
+      transition: all 0.5s ease-out;
+    }
+  }
+
+  [class*="animation_"] {
+    &.delay-250 {
+      animation-delay: 250ms;
+      transition-delay: 0.25s;
+    }
+    &.delay-500 {
+      animation-delay: 500ms;
+      transition-delay: 0.5s;
+    }
+    &.delay-750 {
+      animation-delay: 750ms;
+      transition-delay: 0.75s;
+    }
+    &.delay-1000 {
+      animation-delay: 1000ms;
+      transition-delay: 1s;
+    }
+    &.delay-1250 {
+      animation-delay: 1250ms;
+      transition-delay: 1.25s;
+    }
+  }
+
+  #hero.container {
+    height: 50vh;
+  }
+}
+
+.full-width {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  border: 1px solid blue;
+}

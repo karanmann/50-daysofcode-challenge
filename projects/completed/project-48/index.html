@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project 48/50 - Animate on Scroll - Vanilla JS</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <div class="jumbotron jumbotron-fluid hero">
+      <div class="container">
+        <h1 class="display-2">Query 'n Scroll</h1>
+        <h4 style="max-width: 75%"  class="scroll-trigger_move-in-right-fade-in delay-250">This Pen shows how to query an array of elements in vanilla JS and filter based on id or class, minus an array of exceptions.</h4>
+        <p class="scroll-trigger_move-in-left-fade-in delay-500">
+          This application takes a non-animated series of sections, adds a scroll trigger to elements of a given class or ID, and then add the corresponding animation class on scroll.
+        </p>
+        <p class="scroll-trigger_move-in-right-fade-in delay-750">
+          Pages that have <code>scroll-trigger_</code> classes pre-applied will be triggered on scroll via javascript.
+        </p>
+        <p class="scroll-trigger_move-in-right-fade-in delay-1000"><code>.animation_[name]</code> can be directly attached for immediate animation if you give your element a starting animation state, such as opacity: 0;</p>
+        <p class="scroll-trigger_move-in-right-fade-in delay-1250"><code>.delay-[milliseconds]</code> does what is it says and applies a series of inceasingly longer delays to a series of items to stagger transitions</p>
+      </div>
+    </div>
+
+    <div id="motivations" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Motivations</h2>
+            <ol>
+              <li>Desire to eliminate jQuery for a common task.</li>
+              <li>Need for dry code that can get children of an element and filter out nodes by id and class, allowing targeted manipulation.</li>
+              <li>Desire to speed up query and execution</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="modifiedWithSCSS" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Modifed with SCSS</h2>
+            <p>In this example, the animation trigger class is set on the top level Bootstrap jumbotrons. Each jumbotron's first container holds the contents that I would like to have fade in on scroll. So, in the scss I have target the first container of each
+              jumbotron.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="filteredNodes" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Filtered Nodes</h2>
+            <p>
+              The getElements function accepts the following:
+              <ul>
+                <li>type ( a string of "id" or "class")</li>
+                <li>name ( a string of the id name or class name)</li>
+                <li>parent ( an DOM node, such as document.body)</li>
+                <li>exclusions ( an array of strings/classnames to ignore)</li>
+              </ul>
+            </p>
+            <p class="scroll-trigger_move-in-left-fade-in delay-250">
+              <code>
+              scrollFadeElements = getElements("class", "container", document.body, [
+      "container-hero",
+      "hero"
+    ]);
+            </code>
+            </p>
+            <p>
+              It returns an array of nodes to act upon.
+            </p>
+            <p class="scroll-trigger_move-in-left-fade-in delay-250">
+              <code>
+              div#modifiedWithSCSS.jumbotron.jumbotron-fluid, div#motivations.jumbotron.jumbotron-fluid, div#filteredNodes.jumbotron.jumbotron-fluid, div#motivations.jumbotron.jumbotron-fluid]
+            </code>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="motivations" class="jumbotron jumbotron-fluid">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h2>Issues Encountered</h2>
+            <p>
+              Arrays gotten from the DOM were array-like (<a href="https://developer.mozilla.org/en-US/docs/Web/API/DOMTokenList">DOM token list</a>) and did not share the same methods as traditional array. <code>mynode.classList</code>, for example returned
+              an array that I could not iterate through. <code>mynode.className.split('')</code>, on the other hand, returned an easily iterable array split off from a complete string of all of the element's classes.
+            </p>
+            <p class="scroll-trigger_move-in-left-fade-in">
+              Also see <code>Array.from([somenodearray])</code> to convert a collection of nodes to something iterable using .forEach.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>
