@@ -1,109 +1,76 @@
 body .jumbotron {
   margin-bottom: 0;
 }
-
 body .jumbotron.hero {
   min-height: 75vh;
 }
-
 body .jumbotron:nth-child(odd) {
   background-color: lightgray;
 }
-
 body .hero-text {
   width: 50%;
 }
-
 body .hero-text h1 {
   font-weight: bold;
 }
-
 body .container-padded {
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
 body .scroll-trigger_move-up-fade-in .container:first-of-type {
   opacity: 0;
-  -webkit-transform: translateY(50px);
-          transform: translateY(50px);
+  transform: translateY(50px);
 }
-
 body .scroll-trigger_move-up-fade-in.animation_move-up-fade-in .container:first-of-type {
   opacity: 1;
-  -webkit-transform: translateY(0);
-          transform: translateY(0);
-  -webkit-transition: all 0.5s ease-out;
+  transform: translateY(0);
   transition: all 0.5s ease-out;
 }
-
 body .scroll-trigger_move-in-right-fade-in {
   opacity: 0;
-  -webkit-transform: translateX(50px);
-          transform: translateX(50px);
-  -webkit-transition: all 0.5s ease-out;
+  transform: translateX(50px);
   transition: all 0.5s ease-out;
-  -webkit-transition-delay: inherit;
-          transition-delay: inherit;
+  transition-delay: inherit;
 }
-
 body .scroll-trigger_move-in-right-fade-in.animation_move-in-fade-in {
   opacity: 1;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: all 0.5s ease-out;
+  transform: translateX(0);
   transition: all 0.5s ease-out;
 }
-
 body .scroll-trigger_move-in-left-fade-in {
   opacity: 0;
-  -webkit-transform: translateX(-50px);
-          transform: translateX(-50px);
+  transform: translateX(-50px);
 }
-
 body .scroll-trigger_move-in-left-fade-in.animation_move-in-fade-in {
   opacity: 1;
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-  -webkit-transition: all 0.5s ease-out;
+  transform: translateX(0);
   transition: all 0.5s ease-out;
 }
-
-body [class*="animation_"].delay-250 {
+body [class*=animation_].delay-250 {
   -webkit-animation-delay: 250ms;
           animation-delay: 250ms;
-  -webkit-transition-delay: 0.25s;
-          transition-delay: 0.25s;
+  transition-delay: 0.25s;
 }
-
-body [class*="animation_"].delay-500 {
+body [class*=animation_].delay-500 {
   -webkit-animation-delay: 500ms;
           animation-delay: 500ms;
-  -webkit-transition-delay: 0.5s;
-          transition-delay: 0.5s;
+  transition-delay: 0.5s;
 }
-
-body [class*="animation_"].delay-750 {
+body [class*=animation_].delay-750 {
   -webkit-animation-delay: 750ms;
           animation-delay: 750ms;
-  -webkit-transition-delay: 0.75s;
-          transition-delay: 0.75s;
+  transition-delay: 0.75s;
 }
-
-body [class*="animation_"].delay-1000 {
+body [class*=animation_].delay-1000 {
   -webkit-animation-delay: 1000ms;
           animation-delay: 1000ms;
-  -webkit-transition-delay: 1s;
-          transition-delay: 1s;
+  transition-delay: 1s;
 }
-
-body [class*="animation_"].delay-1250 {
+body [class*=animation_].delay-1250 {
   -webkit-animation-delay: 1250ms;
           animation-delay: 1250ms;
-  -webkit-transition-delay: 1.25s;
-          transition-delay: 1.25s;
+  transition-delay: 1.25s;
 }
-
 body #hero.container {
   height: 50vh;
 }
@@ -113,5 +80,4 @@ body #hero.container {
   width: 100vw;
   left: 0;
   border: 1px solid blue;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

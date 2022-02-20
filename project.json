@@ -214,6 +214,437 @@
         "JavaScript"
       ],
       "completed_on":"05/01/2022"
+    },
+    {
+      "number": 17,
+      "title": "Harry Potter Fans",
+      "description": "Harry Potter Character Search",
+      "preview_image": "./data/project-image/Project17.png",
+      "live_url": "./projects/completed/project-17/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"06/01/2022"
+    },
+    {
+      "number": 18,
+      "title": "Scrolling Sponsors",
+      "description": "Scrolling Sponsors Images",
+      "preview_image": "./data/project-image/Project18.png",
+      "live_url": "./projects/completed/project-18/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"07/01/2022"
+    },
+    {
+      "number": 19,
+      "title": "Glassmorphic Cards",
+      "description": "Creating Glasmorphic Cards in CSS",
+      "preview_image": "./data/project-image/Project19.png",
+      "live_url": "./projects/completed/project-19/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"08/01/2022"
+    },
+    {
+      "number": 20,
+      "title": "Hover Icons",
+      "description": "Stylish hover icons that fill up when hovered on.",
+      "preview_image": "./data/project-image/Project20.png",
+      "live_url": "./projects/completed/project-20/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"09/01/2022"
+    },
+    {
+      "number": 21,
+      "title": "Music Player",
+      "description": "Music Player Made with abelity to change tracks",
+      "preview_image": "./data/project-image/Project21.png",
+      "live_url": "./projects/completed/project-21/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"10/01/2022"
+    },
+    {
+      "number": 22,
+      "title": "Email Validation",
+      "description": "Email validation using Javascript and CSS",
+      "preview_image": "./data/project-image/Project22.png",
+      "live_url": "./projects/completed/project-22/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "CSS-Animation"
+      ],
+      "completed_on":"11/01/2022"
+    },
+    {
+      "number": 23,
+      "title": "Neumophic Cards on Tabs",
+      "description": "Change Card on click of tabs and toggle day and night mode",
+      "preview_image": "./data/project-image/Project23.png",
+      "live_url": "./projects/completed/project-23/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"12/01/2022"
+    },
+    {
+      "number": 24,
+      "title": "Expanding Cards",
+      "description": "Images expand to a full screen modal",
+      "preview_image": "./data/project-image/Project24.png",
+      "live_url": "./projects/completed/project-24/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"13/01/2022"
+    },
+    {
+      "number": 25,
+      "title": "Toggle Darkmode",
+      "description": "Darkmode and Lightmode toggle on click of link.",
+      "preview_image": "./data/project-image/Project25.png",
+      "live_url": "./projects/completed/project-25/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"14/01/2022"
+    },
+    {
+      "number": 26,
+      "title": "Voice to Text",
+      "description": "Convert what yopu say to text.",
+      "preview_image": "./data/project-image/Project26.png",
+      "live_url": "./projects/completed/project-26/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"15/01/2022"
+    },
+    {
+      "number": 27,
+      "title": "Calculator",
+      "description": "Classsic Calculator in Javascript.",
+      "preview_image": "./data/project-image/Project27.png",
+      "live_url": "./projects/completed/project-27/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"16/01/2022"
+    },
+    {
+      "number": 28,
+      "title": "Video Background",
+      "description": "Creating a live Wallpaper",
+      "preview_image": "./data/project-image/Project28.png",
+      "live_url": "./projects/completed/project-28/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"17/01/2022"
+    },
+    {
+      "number": 29,
+      "title": "Counter",
+      "description": "Sscrolling Counter",
+      "preview_image": "./data/project-image/Project29.png",
+      "live_url": "./projects/completed/project-29/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"18/01/2022"
+    },
+    {
+      "number": 30,
+      "title": "Filter Content",
+      "description": "Filter Content using Jvascript and displaying the cards.",
+      "preview_image": "./data/project-image/Project30.png",
+      "live_url": "./projects/completed/project-30/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "Javascript"
+      ],
+      "completed_on":"19/01/2022"
+    },
+    {
+      "number": 31,
+      "title": "Magic Card",
+      "description": "Lovely hovereffect to show some magic.",
+      "preview_image": "./data/project-image/Project31.png",
+      "live_url": "./projects/completed/project-31/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "CSS Animations"        
+      ],
+      "completed_on":"20/01/2022"
+    },
+    {
+      "number": 32,
+      "title": "Parallax Tilt",
+      "description": "Cards Tilting on mouse movement.",
+      "preview_image": "./data/project-image/Project32.png",
+      "live_url": "./projects/completed/project-32/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"21/01/2022"
+    },
+    {
+      "number": 33,
+      "title": "Simple Art",
+      "description": "Simple Art Card using Css",
+      "preview_image": "./data/project-image/Project33.png",
+      "live_url": "./projects/completed/project-33/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"22/01/2022"
+    },
+    {
+      "number": 34,
+      "title": "Skeleton Loading",
+      "description": "Skeleton Loading using CSS",
+      "preview_image": "./data/project-image/Project34.png",
+      "live_url": "./projects/completed/project-34/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"23/01/2022"
+    },
+    {
+      "number": 35,
+      "title": "Goolge Home Page",
+      "description": "Clone of the Google Home Page.",
+      "preview_image": "./data/project-image/Project35.png",
+      "live_url": "./projects/completed/project-35/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"24/01/2022"
+    },
+    {
+      "number": 36,
+      "title": "Accordion",
+      "description": "Accordion using Bootstrap.",
+      "preview_image": "./data/project-image/Project36.png",
+      "live_url": "./projects/completed/project-36/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"25/01/2022"
+    },
+    {
+      "number": 37,
+      "title": "Pexel Clone",
+      "description": "Clone of the Pexel Website",
+      "preview_image": "./data/project-image/Project37.png",
+      "live_url": "./projects/completed/project-37/index.html",
+      "techs": [
+        "HTML",
+        "SASS",
+        "JavaScript"
+      ],
+      "completed_on":"26/01/2022"
+    },
+    {
+      "number": 38,
+      "title": "Diagonal Images",
+      "description": "Sort of a Hero with Hover effect and diagonal Images",
+      "preview_image": "./data/project-image/Project38.png",
+      "live_url": "./projects/completed/project-38/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"27/01/2022"
+    },
+    {
+      "number": 39,
+      "title": "Snake Game",
+      "description": "Classic Snake Game",
+      "preview_image": "./data/project-image/Project39.png",
+      "live_url": "./projects/completed/project-39/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "Responsive Design",
+        "JavaScript"
+      ],
+      "completed_on":"28/01/2022"
+    },
+    {
+      "number": 40,
+      "title": "Movie Cards",
+      "description": "Responsive Movie Cards",
+      "preview_image": "./data/project-image/Project40.png",
+      "live_url": "./projects/completed/project-40/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "Responsive Design",
+        "JavaScript"
+      ],
+      "completed_on":"29/01/2022"
+    },
+    {
+      "number": 41,
+      "title": "Animated News Card",
+      "description": "Cool CSS Animated News Card",
+      "preview_image": "./data/project-image/Project41.png",
+      "live_url": "./projects/completed/project-41/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"30/01/2022"
+    },
+    {
+      "number": 42,
+      "title": "Neumorphic Buttons",
+      "description": "Neumorphic Buttons that can be added a player.",
+      "preview_image": "./data/project-image/Project42.png",
+      "live_url": "./projects/completed/project-42/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"31/01/2022"
+    },{
+      "number": 43,
+      "title": "Neumorphic Audio Player",
+      "description": "Neumorphic audio player with Audio Art.",
+      "preview_image": "./data/project-image/Project43.png",
+      "live_url": "./projects/completed/project-43/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"01/2/2022"
+    },
+    {
+      "number": 44,
+      "title": "Cool Glow",
+      "description": "Cool glowing animation on hover.",
+      "preview_image": "./data/project-image/Project44.png",
+      "live_url": "./projects/completed/project-44/index.html",
+      "techs": [
+        "HTML",
+        "SASS"
+      ],
+      "completed_on":"02/2/2022"
+    },
+    {
+      "number": 45,
+      "title": "Neon",
+      "description": "Neon Glow on Text",
+      "preview_image": "./data/project-image/Project45.png",
+      "live_url": "./projects/completed/project-45/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "CSS ANIMATION"
+      ],
+      "completed_on":"03/2/2022"
+    },
+    {
+      "number": 46,
+      "title": "Day and Night Animation",
+      "description": "Animation that transsitions from day to night and back to day.",
+      "preview_image": "./data/project-image/Project46.png",
+      "live_url": "./projects/completed/project-46/index.html",
+      "techs": [
+        "HTML",
+        "CSS"
+      ],
+      "completed_on":"04/2/2022"
+    },
+    {
+      "number": 47,
+      "title": "Scrolling Text",
+      "description": "Text that scrolls letter by letter.",
+      "preview_image": "./data/project-image/Project47.png",
+      "live_url": "./projects/completed/project-47/index.html",
+      "techs": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ],
+      "completed_on":"05/2/2022"
+    },
+    {
+      "number": 48,
+      "title": "Animate on Scroll",
+      "description": "Animates sections into perspective as we scroll on the page.",
+      "preview_image": "./data/project-image/Project48.png",
+      "live_url": "./projects/completed/project-48/index.html",
+      "techs": [
+        "HTML",
+        "SASS",
+        "JavaScript"
+      ],
+      "completed_on":"06/2/2022"
+    },
+    {
+      "number": 49,
+      "title": "Weather App",
+      "description": "Weather app that animates ans shows weather ass per your geolocation.",
+      "preview_image": "./data/project-image/Project49.png",
+      "live_url": "./projects/completed/project-49/index.html",
+      "techs": [
+        "HTML",
+        "SASS",
+        "JavaScript",
+        "API"
+      ],
+      "completed_on":"07/2/2022"
+    },
+    {
+      "number": 50,
+      "title": "Tip Calucator",
+      "description": "Classic tip calculating app.",
+      "preview_image": "./data/project-image/Project50.png",
+      "live_url": "./projects/completed/project-50s/index.html",
+      "techs": [
+        "HTML",
+        "SASS",
+        "JavaScript"
+      ],
+      "completed_on":"08/2/2022"
     }
   ]
 } 

@@ -2,23 +2,16 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 body {
   background-color: #0cbaba;
   background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
   height: 100vh;
   width: 100vw;
   letter-spacing: 2px;
@@ -37,13 +30,11 @@ html {
   width: 20vw;
   height: 60vh;
   border-radius: 5px;
-  -webkit-box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
-          box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 0.2);
   background: #a5bbdd;
   position: relative;
   overflow: hidden;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
   min-width: 200px;
   min-height: 350px;
 }
@@ -58,8 +49,7 @@ html {
   height: 500px;
   margin-left: -250px;
   margin-top: -250px;
-  -webkit-transform-origin: 50% 48%;
-          transform-origin: 50% 48%;
+  transform-origin: 50% 48%;
   border-radius: 43%;
   -webkit-animation: drift 3000ms infinite linear;
           animation: drift 3000ms infinite linear;
@@ -88,32 +78,26 @@ html {
   width: 100%;
   height: 100%;
   z-index: 11;
-  -webkit-transform: translate3d(0, 0, 0);
-          transform: translate3d(0, 0, 0);
+  transform: translate3d(0, 0, 0);
 }
 
 @-webkit-keyframes drift {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   from {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 
 @keyframes drift {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   from {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg);
+    transform: rotate(360deg);
   }
 }
-
 .info {
   position: absolute;
   bottom: 0;
@@ -141,15 +125,9 @@ html {
 
 .weathercon {
   height: 55%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: center;
+  align-items: center;
   font-size: 3em;
 }
 
@@ -158,29 +136,30 @@ html {
     width: 90vw;
     height: 80vh;
   }
+
   .wave {
     top: 85%;
   }
+
   .weathercon {
     font-size: 5em;
   }
+
   .info {
     font-size: 1.5rem;
   }
 }
-
 @media (max-height: 500px) {
   .box {
     height: 80vh;
   }
+
   .wave {
     top: 115%;
   }
 }
-
 body > span {
   width: 100vw;
   text-align: center;
   color: grey;
-}
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
